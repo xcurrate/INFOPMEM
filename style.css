@@ -1,0 +1,122 @@
+ @font-face {
+       font-family: 'Akira Expanded Demo';
+       src: url('Akira Expanded Demo.otf') format('opentype'); /* Gunakan format 'opentype' untuk file .otf */
+       font-weight: normal;
+       font-style: normal;
+   }
+   
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+body {
+    background: url('custom-background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    backdrop-filter: blur(8px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #fff;
+}
+        .waktu {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            font-size: 20px;
+            font-family: Times New Roman, sans-serif;
+            color: white;
+            }
+.logo {
+    width: 100px;  /* Mengatur lebar gambar */
+    height: 100px; /* Mengatur tinggi gambar agar sama dengan lebar */
+    border-radius: 50%;  /* Membuat gambar berbentuk lingkaran */
+    margin-bottom: 1px;
+}
+
+.container {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    font-size: 2rem;
+    font-family: 'Akira Expanded Demo'
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-family: 'OpenSans-Regular', sans-serif;
+    font-size: 1rem;
+    font-style: italic;
+}
+
+.highlight {
+    color: #9b59b6; /* Warna teks utama */
+    text-shadow: 
+        0 0 5px rgba(061, 055, 071, 0.8),  /* Bayangan luar */
+        0 0 10px rgba(061, 055, 071, 0.6), /* Bayangan dalam */
+        0 0 15px rgba(061, 055, 071, 0.4); /* Bayangan paling dalam */
+    font-size: 2em; /* Ukuran font yang lebih besar (opsional) */
+}
+
+p {
+    margin-bottom: 20px;
+    font-size: 1rem;
+}
+
+.buttons .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    border: 2px solid white; /* Garis pinggir putih */
+    border-radius: 15px; /* Membuat tombol berbentuk oval */
+    background: transparent; /* Tombol transparan */
+    transition: all 0.3s ease; /* Animasi hover */
+}
+
+.buttons .btn:hover {
+    background: rgba(255, 255, 255, 0.2); /* Warna putih semi-transparan saat hover */
+    color: white; /* Tetap putih saat hover */
+}
+
+
+.btn.email:hover {
+    background: #5a6268;
+}
+
+.already a {
+    color: #9b59b6;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.already a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+footer a img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    transition: transform 0.2s ease;
+}
+
+footer a img:hover {
+    transform: scale(1.2);
+}

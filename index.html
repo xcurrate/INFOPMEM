@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZUYA</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Waktu Saat Ini</title>
+  </head>
+  <body>
+    <div class="container">
+    
+      <img src="logo.jpg" alt="Logo" class="logo">
+      <h1><span class="highlight">ZUYA</span></h1>
+      <h2>Selamat datang di halaman info OPMEM !<br>Tekan tombol untuk sampai tujuan yang di inginkan</h2>
+      <br>
+      <div id="waktu"></div>
+        <script>
+            function updateWaktu() {
+                const now = new Date();
+                const options = {
+                    hour: '2-digit',
+                    minute: '2-digit',
+                    second: '2-digit',
+                    hour12: false,
+                };
+                document.getElementById('waktu').innerText = now.toLocaleTimeString('id-ID', options);
+            }
+        
+            setInterval(updateWaktu, 1000); // Update waktu setiap detik
+            updateWaktu(); // Tampilkan waktu saat ini saat pertama kali
+        </script>
+              <p>Status Info: Belum ada Info Saat ini 
+      <br>
+      <div class="buttons">
+    <a href="http://t.me/zuyaajakali" target="_blank" class="btn WhatsApp">
+        <img src="zuya.png" alt="Ikon 1" style="width:20px; height:20px; vertical-align: middle;"> Grup Zuya n Friends
+    </a>
+    <a href="http://t.me/zuyaajakali" target="_blank" class="btn WhatsApp">
+        <img src="Noh.png" alt="Ikon 2" style="width:20px; height:20px; vertical-align: middle;"> Info Open Member Noh
+    </a>
+    <a href="http://t.me/zuyaajakali" target="_blank" class="btn WhatsApp">
+        <img src="HxN.png" alt="Ikon 3" style="width:20px; height:20px; vertical-align: middle;"> Info Open Member Hoaxen
+    </a>
+    <a href="http://wa.me/+6285696559799" class="btn email">
+        <img src="miko.png" alt="Ikon 4" style="width:20px; height:20px; vertical-align: middle;"> Chat Atmin 1
+    </a>
+    <a href="http://t.me/zuyaajakali" class="btn email">
+        <img src="cyra.png" alt="Ikon 5" style="width:20px; height:20px; vertical-align: middle;"> Chat Atmin 2
+    </a>
+    <br>
+    <br>
+</div>
+      <p class="already">Jangan Hanya "Halo" - membuat orang membuang waktu hanya untuk jawaban mu ?<br>Langsung saja katakan </p>
+      
+    </div>
+<br>
+<br>
+    <footer>
+      <a href="http://t.me/zuyaajakali" target="_blank">
+        <img src="telegram.png" alt="Telegram">
+      </a>
+      <a href="http://www.youtube.com/@zuyapreset" target="_blank">
+        <img src="YouTube.png" alt="Youtube">
+      </a>
+      <a href="https://saweria.co/zuya20" target="_blank">
+        <img src="Saweria.svg" alt="Saweria">
+      </a>
+    </footer>
+  </body>
+</html>
+
+
+
