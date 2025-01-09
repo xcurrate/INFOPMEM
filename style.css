@@ -36,7 +36,12 @@ body {
     border-radius: 50%;  /* Membuat gambar berbentuk lingkaran */
     margin-bottom: 1px;
 }
-
+.circle-icon {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
 .container {
     text-align: center;
     background: rgba(0, 0, 0, 0.7);
@@ -47,7 +52,7 @@ body {
 
 h1 {
     font-size: 2rem;
-    font-family: 'Akira Expanded Demo'
+    font-family: 'Akira Expanded Demo';
     margin-bottom: 10px;
 }
 
